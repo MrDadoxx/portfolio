@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Mohave:wght@500&family=Oswald&display=swap");
+
+:root {
+  --orange: #ff6600;
+}
+:root {
+  --aqua: #1cc9ab;
+}
+:root {
+  --blue: #105ae1;
+}
+:root {
+  --light-blue: #66ccff;
+}
+:root {
+  --cyan: #6699ff;
+}
+:root {
+  --dark-cyan: #3366ff;
+}
+:root {
+  --yellow: #ffc501;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Mohave", sans-serif;
+  background-color: var(--yellow);
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#toggle-language {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80px;
+  height: 100px;
+  z-index: 1000;
+  border-radius: 0px 0px 40px 40px;
+  border-style: solid solid solid solid;
+  border-color: #29642966;
+  background-color: rgb(103, 194, 147);
+  margin-left: 20px;
+}
+
+#toggle-language button {
+  width: 105px;
+  height: 105px;
+  position: absolute;
+  border: none;
+  border-radius: 100%;
+  background-color: transparent;
+  background-position: center;
+  background-size: cover;
+  transition: filter .2s;
+
+  &:hover {
+    filter: drop-shadow(0px 0px 2px #000);
+    cursor: pointer;
+  }
+}
+
+.es {
+  background-image: url("../assets/es.png");
+  margin-top: 7px;
+  
+}
+
+.en {
+  background-image: url("../assets/en.png");
+}

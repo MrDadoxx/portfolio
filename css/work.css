@@ -1,0 +1,99 @@
+/* Work ===================================================================================================== */
+
+#work {
+  background-color: var(--yellow);
+  position: relative;
+  width: 100%;
+  height: 57.5em;
+  z-index: 500;
+  box-shadow: inset 0 10px 20px 5px #0006;
+}
+
+/* Work: Divisor -------------------------------------------------------------------------------------------- */
+
+.work__divisor--1,
+.work__divisor--2 {
+  display: inline-block;
+  background-color: var(--aqua);
+  height: 1em;
+  position: absolute;
+  border-radius: 100px;
+  margin: 50px;
+  margin-top: 80px;
+}
+
+.work__divisor--1 {
+  width: 30%;
+}
+
+.work__divisor--2 {
+  width: 32%;
+  margin-left: 66%;
+}
+
+.work__title {
+  position: absolute;
+  font-size: 150px;
+  color: var(--orange);
+  text-shadow: 2px 2px 0px #000;
+  margin-left: 35%;
+}
+
+/* Work: Articles -------------------------------------------------------------------------------------------- */
+
+.work__articles {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 11em;
+}
+
+.work__articles__article {
+  width: 700px;
+  height: 300px;
+  margin: 30px 90px 30px 90px;
+  background-color: var(--light-blue);
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-color: var(--dark-cyan);
+  border-width: 6px;
+  border-style: solid solid solid solid;
+  transition: box-shadow 0.2s;
+}
+
+.work__articles__article:hover {
+  box-shadow: 0px 0px 8px #000;
+  cursor: pointer;
+}
+
+.work__image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  border-color: transparent;
+  z-index: 50;
+}
+
+/* Work: Articles: Calculadora ----------------------------------------------------------------------------------------- */
+
+.work-1 {
+  position: relative;
+  z-index: 60;
+  text-align: center;
+}
+
+.work__articles__article__information {
+  border-top-left-radius: 14px;
+  position: absolute;
+  background-color: #444a;
+  margin-top: -43.7%;
+  width: 0%; /* 30% */
+  color: transparent;
+  height: 100%;
+  z-index: 70;
+  transition: all .5s;
+}
+

@@ -1,0 +1,240 @@
+@keyframes rotate {
+  /* Rotar el elemento */
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes up-and-down {
+  /* Sube y baja el elemento */
+  0% {
+    transform: translateY(7px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes color-aqua-to-blue {
+  /* Cambia el color de Aqua a Azul y expande y achica el elemento*/
+  0% {
+    border-color: var(--aqua);
+    transform: scale(1.2);
+  }
+
+  100% {
+    border-color: var(--blue);
+    transform: scale(1);
+  }
+}
+
+@keyframes color-blue-to-aqua {
+  /* Cambia el color de Azul a Aqua y expande y achica el elemento*/
+  0% {
+    border-color: var(--blue);
+    transform: scale(1.2);
+  }
+
+  100% {
+    border-color: var(--aqua);
+    transform: scale(1);
+  }
+}
+
+@keyframes underline-on {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes underline-off {
+  /* Elimina el underline */
+  from {
+    width: 100%;
+  }
+
+  to {
+    width: 0%;
+  }
+}
+
+@keyframes work-to-contact {
+  0% {
+    bottom: 92%;
+    right: 0;
+  }
+
+  20% {
+    bottom: 92%;
+    right: 91%;
+  }
+
+  40% {
+    bottom: 0%;
+    right: 91%;
+  }
+
+  60% {
+    bottom: 0%;
+    right: -3%;
+  }
+
+  80% {
+    bottom: -80%;
+    right: -3%;
+  }
+
+  100% {
+    bottom: -80%;
+    right: -130%;
+  }
+}
+
+@keyframes work-to-about {
+  0% {
+    bottom: 92%;
+    right: 0;
+  }
+
+  50% {
+    bottom: 92%;
+    right: 91%;
+  }
+
+  75% {
+    bottom: 0%;
+    right: 91%;
+  }
+
+  100% {
+    bottom: 0%;
+    right: -70%;
+  }
+}
+
+@keyframes about-to-work {
+  0% {
+    bottom: 0%;
+    right: -70%;
+  }
+
+  50% {
+    bottom: 0%;
+    right: 91%;
+  }
+
+  75% {
+    bottom: 92%;
+    right: 91%;
+  }
+
+  100% {
+    bottom: 92%;
+    right: 0;
+  }
+}
+
+@keyframes about-to-contact {
+  0% {
+    bottom: 0%;
+    right: -70%;
+  }
+
+  50% {
+    bottom: 0%;
+    right: -3%;
+  }
+
+  75% {
+    bottom: -80%;
+    right: -3%;
+  }
+
+  100% {
+    bottom: -80%;
+    right: -130%;
+  }
+}
+
+@keyframes contact-to-work {
+  0% {
+    bottom: -80%;
+    right: -130%;
+  }
+
+  20% {
+    bottom: -80%;
+    right: -3%;
+  }
+
+  40% {
+    bottom: 0%;
+    right: -3%;
+  }
+
+  60% {
+    bottom: 0%;
+    right: 91%;
+  }
+
+  80% {
+    bottom: 92%;
+    right: 91%;
+  }
+
+  100% {
+    bottom: 92%;
+    right: 0;
+  }
+}
+
+@keyframes contact-to-about {
+  0% {
+    bottom: -80%;
+    right: -130%;
+  }
+
+  50% {
+    bottom: -80%;
+    right: -3%;
+  }
+
+  75% {
+    bottom: 0%;
+    right: -3%;
+  }
+
+  100% {
+    bottom: 0%;
+    right: -70%;
+  }
+}
+
+@keyframes notification-up {
+  0% {
+    margin-top: 100vh;
+  }
+
+  100% {
+    margin-top: 88.5vh;
+  }
+}
+
+@keyframes notification-down {
+  0% {
+    margin-top: 88.5vh;
+  }
+
+  100% {
+    margin-top: 100vh;
+  }
+}
