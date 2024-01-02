@@ -1,6 +1,3 @@
-const $ = (selector) => document.querySelector(selector);
-const $$ = (selector) => document.querySelectorAll(selector);
-
 const work__link = $(".menu__links__work__link");
 const work__underline = $(".menu__links__work__underline");
 const about__link = $(".menu__links__about__link");
